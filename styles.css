@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(assets/day.png);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-content-box {
+  width: 24rem;
+  height: 16rem;
+  background: rgba(55, 55, 55, 0.3);
+  border: 6px solid rgba(55, 52, 53);
+  border-radius: 20px;
+}
+
+.city,
+.weather,
+.lastUpdate,
+.update,
+.condition {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.city {
+  margin-top: 1.8rem;
+}
+
+.weather,
+.condition {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.lastUpdate {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.update {
+  background-color: rgba(55, 52, 53);
+  width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 0;
+  margin-left: 7rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.update:hover {
+  background-color: rgb(33, 31, 32);
+}
